@@ -16,7 +16,7 @@ pipeline {
             steps {
                 // OJO: Cambia 'master' por 'main' si tu rama principal se llama así
                 // Y no olvides poner tu URL real aquí
-                git branch: 'main', url: 'https://github.com/DiegoLopez-f/ejercicioCICD'
+                git branch: 'master', url: 'https://github.com/DiegoLopez-f/ejercicioCICD'
             }
         }
         stage('Install') {
